@@ -1,0 +1,13 @@
+UploadOssComponent:
+  Component: upload-oss-regions
+  Provider: alibaba
+  Properties:
+    Region: all
+    Uri: .
+    BucketName: fc-console-gen-{region}-{accountId}
+    ObjectPath: upload-oss-regions
+    Ignore:
+      - .s
+      - .DS_Store
+      - template.yml
+
